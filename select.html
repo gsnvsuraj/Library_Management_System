@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selection</title>
+
+	<style type="text/css">
+		.button{
+				background-color: #008CBA;
+				border: none;
+				color: white;
+				padding: 12px 28px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+			}
+
+			ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 20px;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+      background-color: #4CAF50;
+  }
+	</style>
+</head>
+<body>
+	<ul>
+    <li><img src="http://nitpy.ac.in/wp-content/uploads/2016/04/logomin.png" height=50px width=50px></img></li>
+    <li><a class="college">NIT Puducherry Library</a></li>
+      <li><a class="active" href="select.html">Home</a></li>
+      <li><a href="list.php">List</a></li>
+      <li><a href="listAdd.php">Add</a></li>
+      <li><a href="listRet.php">Return</a></li>
+      <li style="float:right"><a href="logout.php">Log Out</a></li>
+  </ul>
+	<div><center>
+		<h1>Select</h1>
+		<a href="listAdd.php"><button class="button">Add Book</button></a>
+		<a href="list.php"><button class="button">Your Books</button></a>
+		<a href="listRet.php"><button class="button">Return Book</button></a>
+	</center></div>
+</body>
+</html>
